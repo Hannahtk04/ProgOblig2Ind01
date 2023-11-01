@@ -1,0 +1,13 @@
+fun nordiske-land-flagg(a, b, c, d, e):
+  frame(
+    overlay(rectangle(240, 20, "solid", a),
+      rotate(180,
+        overlay(rectangle(20, 180, "solid", b),
+          overlay(rectangle(240, 40, "solid", c),
+            rotate(180,
+              overlay(rectangle(40, 180, "solid", d),
+                rectangle(240, 180, "solid", e))))))))
+end
+nordiske-land-flagg( "navy", "navy", "white", "white", "fire brick")
+
+# For å lage de ulike nordiske flaggene, endrer man bare fargene i linje 12.
